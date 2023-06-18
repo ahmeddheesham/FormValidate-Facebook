@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.sec1 {
+    background-color: #F0F2F5;
+    width: 100%;
+    height: 721px;
+    position: relative;
+}
+
+.sec1 .formm1 {
+    background-color: white;
+    height: 566px;
+    width: 435px;
+    position: absolute;
+    top: 106px;
+    left: 530px;
+    border-radius: 8px;
+    box-shadow: 1px 10px 20px #ddd;
+    text-align: right;
+    /* padding: 15px 25px; */
+}
+
+.sec1 .formm1 .xxxx {
+    position: absolute;
+    top: 17px;
+    left: 15px;
+    font-size: 25px;
+    color: #5e5e5e;
+}
+
+.sec1 .formm1 .fom .h11 {
+    padding: 15px 17px 0px 0px;
+    font-size: 30px;
+
+}
+
+.sec1 .formm1 .fom .p1 {
+    padding: 4px 17px 0px 0px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #444444dd;
+}
+
+.sec1 .formm1 .fom .hr {
+    background-color: #ddd;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+
+
+.sec1 .formm1 .fom .foc {
+    text-align: right;
+    margin-right: 17px;
+}
+
+.sec1 .formm1 .fom .fam {
+    font-size: 14px;
+    padding: 11px 0px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background-color: #fafafa;
+}
+
+.sec1 .formm1 .fom .firs {
+    font-size: 14px;
+    padding: 11px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background-color: #fafafa;
+}
+
+.sec1 .formm1 .fom .ema {
+    font-size: 14px;
+    width: 394px;
+    margin-top: 10px;
+    padding: 11px 8px 11px 0px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background-color: #fafafa;
+}
+
+.sec1 .formm1 .fom .pas {
+    font-size: 14px;
+    width: 394px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    padding: 11px 8px 11px 0px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background-color: #fafafa;
+}
+
+.sec1 .formm1 .fom .foc:focus {
+    outline: none;
+    background-color: #f6f6f6;
+}
+
+
+.sec1 .formm1 .fom .typ {
+    color: #939393;
+    font-size: 13px;
+    padding: 19px;
+    /* margin-top: 10px; */
+}
+
+.sec1 .formm1 .fom select {
+    margin-right: 17px;
+    margin-top: 5px;
+    margin-bottom: -10px;
+    padding: 9px 33px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+
+.sec1 .formm1 .fom .gendercontain {
+    display: flex;
+    justify-content: space-around;
+}
+.sec1 .formm1 .fom .gen {
+    margin-right: -10px;
+    margin-top: 5px;
+    padding: 9px 5px 9px 5px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.sec1 .formm1 .fom .genoooo {
+    margin-left: 4px;
+}
+
+.sec1 .formm1 .fom .genooo {
+    margin-left: -10px;
+}
+
+.sec1 .formm1 .fom .genoo {
+    margin-left: -7px;
+    margin-right: -5px;
+
+}
+
+
+.sec1 .formm1 .fom .gen .gen2 {
+    padding: 0px 0px 0px 43px;
+}
+
+.sec1 .formm1 .fom .gen .gen21 {
+    padding: 0px 0px 0px 76px;
+    margin-right: 0px;
+}
+
+.sec1 .formm1 .fom .gen .gen22 {
+    padding: 0px 0px 0px 56px;
+}
+
+
+
+.sec1 .formm1 .fom .policy {
+    padding: 0px 17px;
+    margin-top: -8px;
+}
+
+.sec1 .formm1 .fom .policy .p2 {
+    font-size: 13px;
+    color: #939393;
+}
+
+.sec1 .formm1 .fom .policy .p2 a {
+    text-decoration: none;
+    color: #7971EA;
+}
+
+.sec1 .formm1 .fom .policy .p3 {
+    font-size: 13px;
+    color: #939393;
+}
+
+.sec1 .formm1 .fom .policy .p3 a {
+    text-decoration: none;
+    color: #7971EA;
+}
+
+
+
+.sec1 .formm1 .fom .creatacc {
+    text-decoration: none;
+    background-color: #3bb723;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 14px 110px;
+    border-radius: 7px;
+    position: absolute;
+    left: 41px;
+    top: 496px;
+    border: none;
+}
+
+.sec1 .formm1 .fom .creatacc:hover {
+    background-color: #359e20;
+}

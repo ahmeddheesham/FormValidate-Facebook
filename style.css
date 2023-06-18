@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Start Section */
+
+.sec {
+    background-color: #F0F2F5;
+    width: 100%;
+    height: 721px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Sec Left */
+.sec-left {
+text-align: center;
+margin-left: 260px;
+margin-top: -70px;
+}
+
+.sec-left .formm {
+    background-color: white;
+    width: 440px;
+    height: 390px;
+    border-radius: 8px;
+    box-shadow: 1px 10px 15px #ddd;
+}
+
+.sec-left .formm input {
+    width: 405px;
+    height: 55px;
+    border-radius: 5px;
+    border: 1px solid #dddddda0;
+    margin-top: 20px;
+    padding-right: 17px;
+    text-align: right;
+    font-size: 17px;
+    
+}
+
+.sec-left .formm input:focus {
+    outline: 1px solid #7971EA;
+    color: black;
+}
+
+.sec-left .formm .pas {
+    margin-bottom: 30px;
+    margin-top: 14px;
+}
+
+.sec-left .formm .login {
+    text-decoration: none;
+    background-color: #1877F2;
+    padding: 13px 147px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: -12px;
+}
+
+.sec-left .formm .forgetpass {
+    text-decoration: none;
+    color: #1877F2;
+    font-size: 13.7px;
+    font-weight: bold;
+}
+.sec-left .formm .forgetpass:hover {
+    text-decoration: underline;
+}
+
+.sec-left .formm .hr {
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 42px;
+    height: 1.3px;
+    width: 415px;
+    background-color: #ddddddb2;
+}
+
+
+.sec-left .formm .signup {
+    text-decoration: none;
+    background-color: #3bb723;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 14px 16px;
+    border-radius: 5px;
+}
+
+.sec-left .formm .signup:hover {
+    background-color: #35a71e;
+}
+
+.sec-left .creatpage {
+    margin-top: 25px;
+}
+
+.sec-left .creatpage p {
+    font-size: 14.7px;
+}
+
+.sec-left .creatpage p .crea {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+/* Sec Right */
+
+.sec-right {
+    position: relative;
+    text-align: right;
+    width: 50%;
+    margin-top: -70px;
+    /* margin-right: 400px; */
+}
+
+.sec-right .logo {
+    width: 340px;
+    position: absolute;
+    top: -162px;
+    left: 265px;
+}
+
+.sec-right .ucan {
+    font-size:25px;
+    font-weight: bold;
+    position: absolute;
+    top: -59px;
+    left: 138px;
+
+}
+
+
+/* End Section */
